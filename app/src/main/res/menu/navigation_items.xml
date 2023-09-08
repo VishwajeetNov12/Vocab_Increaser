@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/optHistory"
+        android:title="History"
+        android:icon="@drawable/baseline_access_time_filled_24"/>
+
+    <item
+        android:id="@+id/optStarred"
+        android:title="Starred Words"
+        android:icon="@drawable/baseline_star_24"/>
+
+    <item
+        android:id="@+id/optBuy"
+        android:title="Buy Lookup Pro"
+        android:icon="@drawable/baseline_shopping_cart_24"/>
+
+    <item
+        android:id="@+id/optHelp"
+        android:title="Help"
+        android:icon="@drawable/baseline_help_24"/>
+
+    <item
+        android:id="@+id/optAbout"
+        android:title="About Developer"
+        android:icon="@drawable/baseline_person_24"/>
+
+    <item
+        android:id="@+id/optLookup"
+        android:title="Lookup Community"
+        android:icon="@drawable/baseline_people_24"/>
+
+    <item
+        android:id="@+id/optSettings"
+        android:title="Settings"
+        android:icon="@drawable/baseline_settings_24"/>
+
+
+</menu>
