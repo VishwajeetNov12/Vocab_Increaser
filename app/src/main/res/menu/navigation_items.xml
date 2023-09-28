@@ -2,6 +2,10 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
+        android:id="@+id/optHome"
+        android:title="Home"
+        android:icon="@drawable/baseline_home_24"/>
+    <item
         android:id="@+id/optHistory"
         android:title="History"
         android:icon="@drawable/baseline_access_time_filled_24"/>
@@ -36,5 +40,8 @@
         android:title="Settings"
         android:icon="@drawable/baseline_settings_24"/>
 
-
+    <item
+        android:id="@+id/optsistec"
+        android:title="Sistec"
+        android:icon="@drawable/baseline_home_24"/>
 </menu>

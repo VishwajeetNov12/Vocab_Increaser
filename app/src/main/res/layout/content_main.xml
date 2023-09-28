@@ -1,12 +1,154 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
     <FrameLayout
+        android:id="@+id/container"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/container"/>
+        android:layout_height="98dp">
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <EditText
+                android:id="@+id/searchWord"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="text"
+                android:text="Enter Word"
+                android:background="@drawable/background_border"
+                >
+
+
+            </EditText>
+
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/ImageSearch"
+            android:layout_width="58dp"
+            android:layout_height="39dp"
+            android:layout_marginStart="300dp"
+            android:layout_marginTop="5dp"
+            android:outlineSpotShadowColor="@color/black"
+            android:src="@drawable/baseline_search_24"
+
+            />
+
+
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/speaker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_volume_up_24" />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Meaning"
+        android:textColor="@color/black"
+        android:textSize="30dp">
+
+
+
+    </TextView>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="151dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textMeaning"
+            android:layout_width="match_parent"
+            android:layout_height="91dp"
+            android:hint="Meaning"
+            android:textSize="20dp"
+
+
+            />
+        <ImageView
+            android:id="@+id/speaker1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_volume_up_24" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Synonyms"
+            android:textColor="@color/black"
+            android:textSize="30dp">
+
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="145dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textSynonym"
+            android:layout_width="match_parent"
+            android:layout_height="91dp"
+            android:hint="synonyms"
+            android:textSize="20dp"
+
+
+            />
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Example"
+            android:textColor="@color/black"
+            android:textSize="30dp">
+
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textAntonym"
+            android:layout_width="match_parent"
+            android:layout_height="91dp"
+            android:hint="example"
+            android:textSize="20dp"
+
+
+            />
+
+
+    </LinearLayout>
+
+
+
+
 
 </LinearLayout>
+
+
+
